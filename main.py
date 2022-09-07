@@ -1,12 +1,17 @@
-A = 25
-B = 50
-C = False
-D = True
+while True:
+    base_num = input("Provide a number: ")
+    try:
+        base_num = float(base_num)
 
-print(isinstance(A, int) and A == 25) # True
+        if base_num > 50:
+            print("Please use a number less than 50: ")
+            continue
+        currect_user_input = True
 
-print(not isinstance(B, int) or B == 50) # True
+    except ValueError:
+        currect_user_input = False
+        message = "Use whole # or decimal, no spaces: >> "
 
-print(isinstance(C, bool) and B != True) # True
-
-print(not isinstance(D, bool) or D == False) # False
+    if currect_user_input:
+        print(base_num)
+        break

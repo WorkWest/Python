@@ -86,11 +86,11 @@ print("A" in "Apple") # True
 
 print("B" not in "Quebec") # True
 
-print("C" == "C") # True
+print("C" == "c") # False
 
 print("2" != 2) # True
 
 print(2 != "A" and 5 == 5) # True
 
-print("G" != "g" or 5 =="5") # True
+print("G" != "g" or 5 == "5") # True
 ```
