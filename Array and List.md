@@ -1,7 +1,5 @@
 ## LISTS - MUTABLE [0,1,2,3]
 
-
-
 ```python
 movies = ["When Harry Met Sally", "The Hangover", "The Perks of Being a Wallflower", "The Exorcist"]
 
