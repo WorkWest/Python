@@ -1,4 +1,4 @@
-# FUCNTIONS
+# FUNCTIONS
 
 ```python
 print("Here is an example Function!")
@@ -96,13 +96,7 @@ math2 = do_math(11, 34)
 
 print(f"First sum is: {math1} and the second sum is {math2}!")
 
-# ----------Comparators----------
-equal_to = "=="
-not_equal_to = "!="
-less_than = "<"
-greater_than = ">"
-less_than_or_equals_to = "<="
-greater_than_or_equals_to = ">="
+
 
 # ----------Formating Functions----------
 "Hello there {}.".Format("Matthew")
