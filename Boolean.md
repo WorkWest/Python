@@ -1,5 +1,6 @@
-#BOOLEAN EXPRESSIONS (TRUE OR FALSE)------------------------------------------------------------
+# BOOLEAN EXPRESSIONS (TRUE OR FALSE)
 
+```python
 bool1 = True #Boolean expression = True
 bool2 = 3*3 == 9 #Boolean expression = True
 bool3 = False #Boolean expression = False
@@ -26,3 +27,4 @@ test_or = (7 > 5) or (5 < 7) #True
 test_or2 = (7 > 5) or (5 > 7) #True
 test_not = (7 > 5 ) or ( 5 > 7) # False
 print(test_and, test_and2, test_or, test_or2, test_not)
+```

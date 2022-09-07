@@ -1,7 +1,9 @@
-## LISTS - MUTABLE [0,1,2,3,...]
+## LISTS - MUTABLE [0,1,2,3]
+
+
 
 ```python
-movies = ["When Harry Met SAlly", "The Hangover", "The Perks of Being a Wallflower", "The Exorcist"]
+movies = ["When Harry Met Sally", "The Hangover", "The Perks of Being a Wallflower", "The Exorcist"]
 
 print(movies[1]) #Returns the second item in the list
 print(movies[0]) #Returns the first item in the list

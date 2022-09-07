@@ -1,5 +1,6 @@
-#STRINGS, IMUTABLE------------------------------------------------------------
+# STRINGS, IMUTABLE
 
+```python
 print("Hello, world!") #Double Quotes
 print ('\n') #New Line
 print('Hello, world!') #Single Quotes
@@ -70,3 +71,4 @@ print(f"string is {length:x} characters long") #Print the length as hex (e)
 print(f"string is {length:b} characters long") #Print the length as binary (1110)
 
 print(f"string is {length:o} characters long") #Print the length as octal (16)
+```

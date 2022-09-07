@@ -1,5 +1,6 @@
-#CLASSES AND OBJECTS------------------------------------------------------------
+# CLASSES AND OBJECTS
 
+```python
 class Employees: #Declare class
 
     def __init__(self, name, department, role, salary, years_employed): #Define class parameters
@@ -23,3 +24,4 @@ e2 = Employees("Linda", "Executive", "CIO", 150000, 15)
 print(e1.name)
 print(e2.role)
 print(e1.eligible_for_retirement())
+```

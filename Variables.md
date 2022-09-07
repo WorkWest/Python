@@ -1,5 +1,6 @@
-#VARIABLES AND METHODS------------------------------------------------------------
+# VARIABLES AND METHODS
 
+```python
 quote = "All is fair in love and war." #Variable
 print(quote.upper()) #Upper Method
 print(quote.lower()) #Lower Method
@@ -20,3 +21,4 @@ print(string_var + " variable")
 # You can figure out the type of a object
 type(0)
 type("Hello World!") 
+```

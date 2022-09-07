@@ -1,5 +1,6 @@
-#READING AND WRITING FILES------------------------------------------------------------
+# READING AND WRITING FILES
 
+```python
 #READING A FILE
 months = open('file.txt', "r")
 print(months)
@@ -24,3 +25,4 @@ with open(file, "r") as f:  # Opens a file in read mode as variable f
 
 with open(file, "a") as f:  # Opens a file in append mode as variable f
       x = writelines("New lines of text")  # Reads each line and stores it into variable x
+```

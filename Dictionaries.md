@@ -1,5 +1,6 @@
-#DICTIONARIES - KEY/VALUE PAIRS {}------------------------------------------------------------
+# DICTIONARIES - KEY/VALUE PAIRS {"Key": "Pair"}
 
+```python
 drinks = {"White Russian": 7, "Old Fassion": 10, "Lemon Drop": 8} #Drink is the key, price is the value
 
 print(drinks)
@@ -50,3 +51,4 @@ for key, value in my_dict.items()
 
 # Check to see if a value is part of a dictionary
 "Matthew" in my_dict.value()
+```

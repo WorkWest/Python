@@ -1,5 +1,6 @@
-#CONDITIONAL STATEMENTS------------------------------------------------------------
+# CONDITIONAL STATEMENTS
 
+```python
 #Example 1
 def drink(money):
     if money >= 2:
@@ -59,3 +60,4 @@ while run:
     else:
         print(current)
         current += 1
+```

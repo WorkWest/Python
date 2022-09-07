@@ -1,8 +1,9 @@
+# Regex
+
+```python
 import re
 # The above command imports the regex library
 
-
-# ---------- Regex ----------
 # Regex example
 string = "'I AM NOT YELLING', she said. Though we knew it to not be true."
 print(string)
@@ -13,3 +14,4 @@ print(string)
 
 new = re.sub('[.,\']', '', string)
 print(new)
+```

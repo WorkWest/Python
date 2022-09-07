@@ -1,5 +1,6 @@
-#FUCNTIONS------------------------------------------------------------
+# FUCNTIONS
 
+```python
 print("Here is an example Function!")
 
 def who_am_i(): #This is a Function
@@ -106,3 +107,4 @@ greater_than_or_equals_to = ">="
 # ----------Formating Functions----------
 "Hello there {}.".Format("Matthew")
 "R{0}-D{0}".Format(2)
+```

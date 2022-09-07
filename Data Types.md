@@ -1,5 +1,6 @@
-#DATA TYPES------------------------------------------------------------
+# DATA TYPES
 
+```python
 name = "Matt" #String
 age  = 30 #Integer = int(30)
 gpa = 3.7 #Float = float(3.7)
@@ -8,3 +9,4 @@ print("My name is " + name + " and I am " + str(age) + " years old!") #Use a var
 
 age +=1 #Changes the Age Variable by Adding 1
 print(age)
+```

@@ -1,5 +1,6 @@
-#LOOPING------------------------------------------------------------
+# LOOPING
 
+```python
 #FOR LOOP - Start to finish of an iterate
 vegetables = ["cucumber", "spinach", "cabbage"]
 for x in vegetables:
@@ -10,3 +11,4 @@ i = 1
 while i <= 10:
     print(i)
     i += 1
+```

@@ -1,5 +1,6 @@
-#MATH------------------------------------------------------------
+# MATH
 
+```python
 print(50 + 50) #Addition
 print(50 - 50) #Subtraction
 print(50 * 50) #Multiplication
@@ -29,3 +30,4 @@ hex(8) #Hexadecimal value
 # You can convert different type of numbers by using int
 converted_number = int("5") + int("7")
 print(f"The following number has been converted, {converted_number}")
+```
