@@ -1,25 +1,21 @@
-base_num = input("Input a number: ") # Take input from a user 
+import random
 
-try: 
-  base_num = float(base_num)
-except:
-  print("Number not provided")
-  quit()
+import pyinputplus as pyip
 
-if base_num < 50 and base_num < 0:
-  print("Number must be less than 50 and greater than zero.")
-  quit()
-  
-exponent_num = input("Input another number: ")  # Take input from a user 
+user_guess = pyip.inputNum("Guess a number between 1 and 100: ")
 
-try: 
-  exponent_num = float(exponent_num)
-except:
-  print("Number not provided")
-  quit()
+machine_number = random.randrange(1,100)
 
-if base_num > 50:
-  print("Number must be less than 50.")
-  quit()
+guesses = 0
 
-print(base_num ** exponent_num)
+while user_guess != machine_number:
+  while user_guess < machine_number:
+    print("Too low!")
+    user_guess = pyip.inputNum("Guess again: ")
+    guesses += 1
+  while user_guess > machine_number:
+    print("Too High!")
+    user_guess = pyip.inputNum("Guess again: ")
+    guesses += 1
+
+print(f"You did it in {guesses} tries!")
