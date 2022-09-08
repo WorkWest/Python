@@ -116,7 +116,6 @@ else:
 **or** 
 
 ```python
-
 base_num = input("Input a number: ") # Take input from a user 
 
 try: 
@@ -125,7 +124,7 @@ except:
   print("Number not provided")
   quit()
 
-if base_num > 50 and base_num < 0:
+if base_num <= 50 and base_num < 0:
   print("Number must be less than 50 and greater than zero.")
   quit()
   
