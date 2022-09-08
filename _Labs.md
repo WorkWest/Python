@@ -68,6 +68,8 @@ print(isinstance(C, bool) and B != True) # True
 print(not isinstance(D, bool) or D == False) # False
 ```
 
+### **Lab 3.5: Operators**
+
 ```python
 
 print(True == False) # False
@@ -94,3 +96,23 @@ print(2 != "A" and 5 == 5) # True
 
 print("G" != "g" or 5 == "5") # True
 ```
+
+### **Lab 3.6: Operators**
+
+```python
+import pyinputplus as pyip # Import input validation
+
+base_num = pyip.inputNum("Input a number: ") # Take input from a user 
+
+exponent_num = pyip.inputNum("Input another number: ")  # Take input from a user 
+
+# Check if base number input value is between 0-50 and if the exponent number is less than 50 then print the multiplication
+if (float(base_num) > 50 or float(base_num) < 0) and (float(exponent_num) > 50):
+  print("Your numbers should be between 0-50")
+else: 
+  print(base_num ** exponent_num)
+```
+
+or 
+
+try:

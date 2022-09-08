@@ -1,17 +1,10 @@
-while True:
-    base_num = input("Provide a number: ")
-    try:
-        base_num = float(base_num)
+import pyinputplus as pyip
 
-        if base_num > 50:
-            print("Please use a number less than 50: ")
-            continue
-        currect_user_input = True
+base_num = pyip.inputNum("Input a number: ")
 
-    except ValueError:
-        currect_user_input = False
-        message = "Use whole # or decimal, no spaces: >> "
+exponent_num = pyip.inputNum("Input another number: ")   
 
-    if currect_user_input:
-        print(base_num)
-        break
+if (float(base_num) > 50 or float(base_num) < 0) and (float(exponent_num) > 50 or float(exponent_num) < 0):
+  print("Your numbers should be between 0-50")
+else: 
+  print(base_num ** exponent_num)
