@@ -1,14 +1,3 @@
-while True:
-    print('Enter your age:')
-    age = input()
-    try:
-        age = int(age)
-    except:
-        print('Please use numeric digits.')
-        continue
-    if age < 1:
-        print('Please enter a positive number.')
-        continue
-    break
+import pyinputplus as pyip # Import input validation
 
-print(f'Your age is {age}.')
+base_num = pyip.inputNum("Input a number: ") # Take input from a user
