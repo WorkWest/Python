@@ -143,7 +143,7 @@ if base_num > 50:
 print(base_num ** exponent_num)
 ```
 
-### **Lab 3.7: While Guessing**
+### **Lab 3.7/8: While Guessing**
 
 ```python
 import random
@@ -167,4 +167,42 @@ while user_guess != machine_number:
     guesses += 1
 
 print(f"You did it in {guesses} tries!")
+```
+
+### **Lab 3.9: For What?**
+
+```python
+# Using range(), write a simple loop to print the values 0-10
+for x in range(0,11):
+  print(x)
+```
+
+```python
+# Modify the loop ot only print the odd numbers in the range
+for x in range(0,11):
+  if x % 2 != 0:
+    print(x)
+```
+
+```python
+# What would you change to print even numbers? 
+for x in range(0,11):
+  if x % 2 == 0:
+    print(x)
+```
+```python
+ # Use conditional statements to break out of the loop when a designated number is encountered
+for x in range(0,11):
+  if x % 2 == 0:
+    print(x)
+    if x == 6:
+      break
+```
+
+### **Lab 3.10: For-Ever**
+
+```python
+# Write a script that accepts two user inputs: an IP address and subnet mask
+
+
 ```

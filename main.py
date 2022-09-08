@@ -1,25 +1,8 @@
-import random
+ip_addr = input("Please input an IP Address: ")
 
-import pyinputplus as pyip
+subnet_mask = input("Please input a Subnet Mask: ")
 
-user_guess = pyip.inputNum("Guess a number between 1 and 100: ")
+broken_ip = ip_addr.split('.')
+broken_subnet = subnet_mask.split('.')
 
-machine_number = random.randrange(1,100)
-
-counter = 0
-
-play_again = True
-
-while play_again == True:
-  while user_guess != machine_number:
-    while user_guess < machine_number:
-      print("Too low!")
-      user_guess = pyip.inputNum("Guess again: ")
-      counter += 1
-    while user_guess > machine_number:
-      print("Too High!")
-      user_guess = pyip.inputNum("Guess again: ")
-      counter += 1
-    print(f"You did it in {counter} tries!")
-    play_again = input("Would you like to play again? (True or False)")
-  
+print(broken_ip[3])
