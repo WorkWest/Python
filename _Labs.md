@@ -199,10 +199,29 @@ for x in range(0,11):
       break
 ```
 
-### **Lab 3.10: For-Ever**
+### **Lab 3.10: For-Ever -----INPROGRESS-----**
 
 ```python
 # Write a script that accepts two user inputs: an IP address and subnet mask
 
+ip_addr = input("Please input an IP Address: ")
+
+subnet_mask = input("Please input a Subnet Mask: ")
+
+broken_ip = ip_addr.split('.')
+broken_subnet = subnet_mask.split('.')
+loopthis = 256 - int(broken_subnet[3])
+
+print(broken_ip)
+print(broken_subnet)
+print(loopthis)
+
+for x in range(0,loopthis):
+  print(x)
+```
+
+### **Lab 3.11: Fizzy Lifting Drink**
+
+```python
 
 ```
