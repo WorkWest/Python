@@ -203,21 +203,12 @@ for x in range(0,11):
 
 ```python
 # Write a script that accepts two user inputs: an IP address and subnet mask
+import ipaddress
 
-ip_addr = input("Please input an IP Address: ")
+v4 = ipaddress.ip_network('192.168.39.0/24')
 
-subnet_mask = input("Please input a Subnet Mask: ")
-
-broken_ip = ip_addr.split('.')
-broken_subnet = subnet_mask.split('.')
-loopthis = 256 - int(broken_subnet[3])
-
-print(broken_ip)
-print(broken_subnet)
-print(loopthis)
-
-for x in range(0,loopthis):
-  print(x)
+for i in v4.hosts():
+  print(i)
 ```
 
 ### **Lab 3.11: Fizzy Lifting Drink**

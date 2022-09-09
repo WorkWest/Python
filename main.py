@@ -1,9 +1,13 @@
-for x in range(101):
-  if (x % 3 == 0) and (x % 5 ==0):
-    print("fizz buzz")
-  elif x % 3 == 0:
-    print("fizz")
-  elif x % 5 == 0:
-    print("buzz")
-  else:
-    print(x)
+username = ""
+
+def greeting(username): 
+  print(f"Welcome {username}")
+
+def username_validation():
+  while True:
+    username = input("What is your username: ")
+    if len(username) > 0:
+      greeting(username)
+      break
+    else:
+      print("Try again")
